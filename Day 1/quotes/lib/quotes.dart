@@ -4,3 +4,4 @@ class Quote {
 
   Quote({required this.author, required this.quote});
 }
+
