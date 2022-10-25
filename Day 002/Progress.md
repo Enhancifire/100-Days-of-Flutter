@@ -1,9 +1,9 @@
 # Day 2 Progress and Learnings
 
 ### Learnings:
-Learnt how navigator and routes work
-Learnt how to fetch data using APIs and how to convert them into Maps
-Learnt various data types and null safety features
+- Learnt how navigator and routes work
+- Learnt how to fetch data using APIs and how to convert them into Maps
+- Learnt various data types and null safety features
 
 ### Progress/Builds:
 Worked on World Time Clock
