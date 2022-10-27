@@ -8,3 +8,8 @@ Loosely follows [Olexale's Flutter Roadmap](https://github.com/olexale/flutter_r
 - [Day 2](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20002/Progress.md)
 - [Day 3](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20003/Progress.md)
 - [Day 4](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20004/Progress.md)
+
+### References
+- [Flutter Docs](https://docs.flutter.dev/)
+- The Net Ninja's [Flutter Tutorial for Beginners Series](https://youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)
+- [Olexale's Flutter Roadmap](https://github.com/olexale/flutter_roadmap)
