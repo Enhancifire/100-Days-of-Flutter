@@ -15,7 +15,7 @@ class _LoadingState extends State<Loading> {
   void setupWorldTime() async {
     WorldTime instance = WorldTime(
       location: 'Kolkata',
-      flag: '',
+      flag: 'india.jpg',
       url: 'Asia/Kolkata',
     );
     await instance.getTime();
@@ -24,6 +24,7 @@ class _LoadingState extends State<Loading> {
       'location': instance.location,
       'flag': instance.flag,
       'time': instance.time,
+      'isDaytime': instance.isDaytime,
     });
   }
 
@@ -43,7 +44,7 @@ class _LoadingState extends State<Loading> {
           children: [
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage(
+                backgroundImage: const AssetImage(
                   'assets/images/loader.png',
                 ),
                 radius: width / 4,
