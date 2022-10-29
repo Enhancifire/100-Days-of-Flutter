@@ -1,13 +1,13 @@
-#Day 5 Progress and Learnings
+#Day 6 Progress and Learnings
 
 ### Learnings:
-- Learnt how to create a firebase project
-- Learnt how to Integrate flutter with firebase
-- Learnt how to use the flutterfire CLI tool
+- Learnt how to implement CRUD on Firebase Firestore
+- Learnt how audio streaming systems work
 
 ### Progress/Builds:
 - Simple Firebase CRUD Application
-  - Added Firebase firestore and read the document from collection
+  - Added functionality to add and delete documents to the collection
+  - Finished the application
 
 ### Packages used:
 - firebase_core
@@ -16,3 +16,4 @@
 ## References:
 - CodeX's [Flutter with Firebase Series](https://youtube.com/playlist?list=PL3wGb9_yWsvJ9872ffMpL06MIrl8dUJPG)
 - [Flutter Docs](https://docs.flutter.dev/)
+

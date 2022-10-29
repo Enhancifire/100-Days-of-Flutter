@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247732952039",
+    "project_id": "flutterfire-test-feffa",
+    "storage_bucket": "flutterfire-test-feffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247732952039:android:7f69bcc6c325eefe0a3b42",
+        "android_client_info": {
+          "package_name": "com.faizlabs.flutterfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247732952039-7gm27qrnf9fvv48o1bfll2s88a3gj0af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDptHcilOyQEUKhBI7FQewblLQjJ1UUsjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247732952039-7gm27qrnf9fvv48o1bfll2s88a3gj0af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
