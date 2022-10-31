@@ -1,4 +1,4 @@
-#Day 7 Progress and Learnings
+# Day 7 Progress and Learnings
 
 ### Learnings:
 - Learnt how to implement Firebase Auth
