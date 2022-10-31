@@ -1,15 +1,16 @@
 # Day 8 Progress and Learnings
 
 ### Learnings:
-- Learnt
-- Learnt
-- Learnt
-- Learnt
+- Learnt how to make a custom drawer
+- Learnt how to effectively refactor code
+- Learnt how to use Figma
+- Learnt various design principles
 
 ### Progress/Builds:
 - Habit Tracker
   - Started work on the drawer
   - Designed the Login and Signup screens on Figma
+  - Looking to do a complete UI overhaul while I still can
   - Refactoring changes
 
 ### Packages used:
