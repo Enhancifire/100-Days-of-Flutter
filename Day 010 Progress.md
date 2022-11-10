@@ -9,7 +9,7 @@
   - Taking a break from it
 
 - Clock App
-  -
+  - Built a simple clock app using the Canvas API
 
 ### Packages used:
 - firebase_core

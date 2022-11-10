@@ -12,6 +12,14 @@ Loosely follows [Olexale's Flutter Roadmap](https://github.com/olexale/flutter_r
 - [Day 6](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20006%20Progress.md)
 - [Day 7](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20007%20Progress.md)
 - [Day 8](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20008%20Progress.md)
+- [Day 9](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20009%20Progress.md)
+- [Day 10](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20010%20Progress.md)
+- [Day 11](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20011%20Progress.md)
+- [Day 12](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20012%20Progress.md)
+- [Day 13](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20013%20Progress.md)
+- [Day 14](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20014%20Progress.md)
+- [Day 15](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20015%20Progress.md)
+- [Day 16](https://github.com/Enhancifire/100-Days-of-Flutter/blob/main/Day%20016%20Progress.md)
 
 ### References
 - [Flutter Docs](https://docs.flutter.dev/)
