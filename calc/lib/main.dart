@@ -2,6 +2,7 @@ import 'package:calc/state_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:math_expressions/math_expressions.dart';
+import 'package:calc/grid_buttons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -78,7 +79,7 @@ class _HomePageState extends State<HomePage> {
     final double width = MediaQuery.of(context).size.width;
     return Consumer<ThemeModel>(
       builder: ((context, theme, child) => Scaffold(
-            backgroundColor: theme.darkTheme ? theme.bg : theme.bgDark,
+            backgroundColor: theme.darkTheme ? theme.highlightRow : theme.highlightRowDark,
             appBar: AppBar(
               elevation: 0,
               backgroundColor: theme.darkTheme ? theme.bg : theme.bgDark,
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                         )
                       : Icon(
                           Icons.dark_mode,
-			  color: theme.highlightRow,
+                          color: theme.highlightRow,
                         ),
                 )
               ],
@@ -137,9 +138,11 @@ class _HomePageState extends State<HomePage> {
             body: Column(
               children: [
                 Expanded(
+
                   flex: 3,
                   child: Container(
                     width: width,
+		    color: theme.darkTheme ? theme.bg : theme.bgDark,
                     child: Padding(
                       padding: const EdgeInsets.all(16.0),
                       child: Column(
@@ -173,34 +176,14 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 Expanded(
-                    flex: 7,
-                    child: GridView.count(
-                      crossAxisCount: 4,
-                      crossAxisSpacing: 0,
-                      mainAxisSpacing: 0,
-                      children: [
-                        HighlightedButton(str: 'AC', fun: clr),
-                        HighlightedButton(str: '(', fun: addToEqn),
-                        HighlightedButton(str: ')', fun: addToEqn),
-                        HighlightedButton(str: '/', fun: addToEqn),
-                        NormalButton(str: '7', fun: addToEqn),
-                        NormalButton(str: '8', fun: addToEqn),
-                        NormalButton(str: '9', fun: addToEqn),
-                        HighlightedButton(str: 'X', fun: addToEqn),
-                        NormalButton(str: '4', fun: addToEqn),
-                        NormalButton(str: '5', fun: addToEqn),
-                        NormalButton(str: '6', fun: addToEqn),
-                        HighlightedButton(str: '-', fun: addToEqn),
-                        NormalButton(str: '1', fun: addToEqn),
-                        NormalButton(str: '2', fun: addToEqn),
-                        NormalButton(str: '3', fun: addToEqn),
-                        HighlightedButton(str: '+', fun: addToEqn),
-                        NormalButton(str: '.', fun: addToEqn),
-                        NormalButton(str: '0', fun: addToEqn),
-                        NormalButton(str: 'DEL', fun: deleteLast),
-                        HighlightedButton(str: '=', fun: evaluateExp),
-                      ],
-                    ))
+                  flex: 7,
+                  child: GridIcons(
+                    clr: clr,
+                    addToEqn: addToEqn,
+                    deleteLast: deleteLast,
+                    evaluateExp: evaluateExp,
+                  ),
+                )
               ],
             ),
           )),
@@ -208,77 +191,3 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-class HighlightedButton extends StatelessWidget {
-  const HighlightedButton({
-    Key? key,
-    required this.str,
-    required this.fun,
-  }) : super(key: key);
-
-  final String str;
-  final Function fun;
-
-  @override
-  Widget build(BuildContext context) {
-    return Consumer<ThemeModel>(
-      builder: (context, theme, child) => GestureDetector(
-        onTap: () {
-          fun(str);
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color:
-                theme.darkTheme ? theme.highlightRow : theme.highlightRowDark,
-          ),
-          child: Center(
-            child: Text(
-              str,
-              style: TextStyle(
-                color: theme.darkTheme
-                    ? theme.highlightText
-                    : theme.highlightTextDark,
-                fontSize: 30,
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class NormalButton extends StatelessWidget {
-  const NormalButton({
-    Key? key,
-    required this.str,
-    required this.fun,
-  }) : super(key: key);
-
-  final String str;
-  final Function fun;
-
-  @override
-  Widget build(BuildContext context) {
-    return Consumer<ThemeModel>(
-      builder: (context, theme, child) => GestureDetector(
-        onTap: () {
-          fun(str);
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color: theme.darkTheme ? theme.bg : theme.bgDark,
-          ),
-          child: Center(
-            child: Text(
-              str,
-              style: TextStyle(
-                color: theme.darkTheme ? theme.text : theme.textDark,
-                fontSize: 30,
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}

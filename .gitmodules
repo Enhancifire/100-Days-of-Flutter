@@ -1,3 +1,6 @@
 [submodule "Habitalia"]
 	path = Habitalia
 	url = https://github.com/Enhancifire/Habitalia.git
+[submodule "Tag-Indexer"]
+	path = Tag-Indexer
+	url = https://github.com/Enhancifire/Tag-Indexer.git

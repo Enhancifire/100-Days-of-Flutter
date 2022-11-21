@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.calc">
+    package="com.example.api_assignment">
    <application
-        android:label="Calculator"
+	android:usesCleartextTraffic="true"
+        android:label="api_assignment"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
