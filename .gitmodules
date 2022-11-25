@@ -4,3 +4,6 @@
 [submodule "Tag-Indexer"]
 	path = Tag-Indexer
 	url = https://github.com/Enhancifire/Tag-Indexer.git
+[submodule "MedCollApp-Assignment"]
+	path = MedCollApp-Assignment
+	url = https://github.com/Enhancifire/MedCollApp-Assignment.git
