@@ -7,3 +7,6 @@
 [submodule "MedCollApp-Assignment"]
 	path = MedCollApp-Assignment
 	url = https://github.com/Enhancifire/MedCollApp-Assignment.git
+[submodule "RehnumaMedical"]
+	path = RehnumaMedical
+	url = https://github.com/Enhancifire/Rehnuma-Medical.git
