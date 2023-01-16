@@ -671,6 +671,153 @@ Just 70 more days to go... yay.....
 The app is functionally complete!
 Another project done 😼
 
+## Day 36
+
+### Learnings:
+
+- Learnt about the Supabase Database and Row Level Security Features
+
+### Uvento Progress:
+
+- Integrated Supabase Database into the app
+- Created Event model
+
+## Day 37
+
+### Uvento Progress:
+
+- Created the functions required to fetch the events and turn them into widgets
+- Built the Event Dashboard
+
+## Day 38
+
+### Uvento Progress:
+
+- Created the Search Screen
+- Created Notification Screen
+- Created Orders Screen
+
+## Day 39
+
+### Learnings:
+
+- Learnt about the Hero Widget and Animations
+
+### Uvento Progress:
+
+- Created the Notification and Orders Model
+- Created the Event Info Page
+
+## Day 40
+
+### Uvento Progress:
+
+- Spent the whole damn day debugging null safety errors by trying to integrate Firebase Auth with Supabase Database
+- Wrote Custom Calender Selector for Selecting the events according to dates
+- Wrote functions to dynamically build notifications and orders from list
+- Wrote state management stuff for events and auth
+
+## Day 41
+
+### Learnings:
+
+- Learnt about payments gateways Razorpay, Paytm and Stripe
+
+### Uvento Progress:
+
+- Integrated the Dashboard and Search Screen with State Management
+- Integrated Calender Bar with Dashboard
+- Created Genre based view for events
+- Created Payment Page
+- Tried Integrating Razorpay as well as Paytm, but at last ended up using Stripe
+
+## Day 42
+
+### Learnings:
+
+- Learnt what a disaster it can be to try and integrate two services together
+- Learnt about AppCheck rules and how to enable device check in Firebase
+
+### Uvento Progress:
+
+- Added functionality to automatically update the events database and orders table whenever a payment is successful
+- Added state management model for Profile
+- Spent the day trying to debug authentication errors
+- Debugged Profile Errors
+
+## Day 43
+
+### Learnings:
+
+- Learnt about Splash Screens
+- Learnt about how to change app icon in launcher
+
+### Uvento Progress:
+
+- Added Finishing touches to the app
+- Updated the launcher icon for the app
+- Added Splash Screen for the app. Doesn't work for Android 12 tho.. (Thanks a lot google)
+- Switched Auth Provider to Supabase
+- Completed and Delivered the Application
+
+With this another project comes to an end....
+
+## Day 44
+
+### Builds/Progress:
+
+- Started a New Project
+- Started working on Creating a Management Application for our Pharmacy
+- Designed the basic UI of the application in Figma
+- Decided on the colorscheme to be used for the app. Wanted to go for a lighter theme to match the pharmaceutical feel
+
+## Day 45
+
+### Progress on Rehnuma:
+
+- Implemented Base Template to be used by the application
+- Implemented the Theme class
+- Implemented Quick Add Buttons (functionality remains yet to be implemented)
+- Created custom widget for the Headers
+- Implemented Medicine Class
+
+## Day 46
+
+### Progress on Rehnuma:
+
+- Started Implementing the Database Service for the app
+- Started Implementing the Authentication Service for the app
+- Implemented the Login Screen
+
+## Day 47
+
+### Progress on Rehnuma:
+
+- Implemented Medicine Fetching Functionality for Medicine Page
+- Implemented Search Functionality on Medicine Page
+- Did a lot of backend work on getting RLS (Row Level Security) to work in the App
+
+## Day 48
+
+### Progress on Rehnuma:
+
+- Implemented Adding Medicine Page
+- Implemented View Medicine Page
+
+## Day 49
+
+### Progress on Rehnuma:
+
+- Implemented Adding Bill Page
+- Implemented Autocomplete for Selecting Doctors and Patients
+
+## Day 50
+
+### Progress on Rehnuma:
+
+- Worked on creating a splash screen when the app initially loads
+- Worked on finishing the final design and flow for adding doctors and patients
+
 ## References
 
 - [Flutter Docs](https://docs.flutter.dev/)
