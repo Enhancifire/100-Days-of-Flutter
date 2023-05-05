@@ -9,21 +9,21 @@ class EnlargeAnimation extends StatefulWidget {
 
 class _EnlargeAnimationState extends State<EnlargeAnimation>
     with SingleTickerProviderStateMixin {
-  late final AnimationController _controller;
-  late Animation colorAnimation;
+  // late final AnimationController _controller;
+  // late Animation colorAnimation;
   @override
   void initState() {
     super.initState();
-    colorAnimation = ColorTween(begin: Colors.amber, end: Colors.indigo)
-        .animate(_controller);
-    _controller = AnimationController(vsync: this);
+    // colorAnimation = ColorTween(begin: Colors.amber, end: Colors.indigo)
+    //     .animate(_controller);
+    // _controller = AnimationController(vsync: this);
   }
 
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   _controller.dispose();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -32,8 +32,8 @@ class _EnlargeAnimationState extends State<EnlargeAnimation>
 
     return TweenAnimationBuilder(
       tween: Tween(begin: 100, end: width),
-      duration: Duration(seconds: 2),
-      builder: (context, value, child) => Container(
+      duration: const Duration(seconds: 2),
+      builder: (context, value, child) => SizedBox(
         height: height,
         width: width,
         child: Center(
