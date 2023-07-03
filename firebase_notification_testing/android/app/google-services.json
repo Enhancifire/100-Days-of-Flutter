@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277312780097",
+    "project_id": "fir-notifications-dac5a",
+    "storage_bucket": "fir-notifications-dac5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277312780097:android:a963d58cb8a7ce558b93c0",
+        "android_client_info": {
+          "package_name": "com.example.firebase_notification_testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277312780097-8ess12o05fvs1dvpavq0eaasoqoom213.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA62E7lI8vUNpv6SJih5gUW8qiM8kclcNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277312780097-8ess12o05fvs1dvpavq0eaasoqoom213.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
