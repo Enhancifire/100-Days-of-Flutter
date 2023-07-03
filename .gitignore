@@ -7,6 +7,10 @@ build/
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
+firebase_notification_testing/test.py
+firebase_notification_testing/.env/
+firebase_notification_testing/fir-notifications-dac5a-4a9d6cb51d24.json
+
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
 doc/api/
